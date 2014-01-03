@@ -233,7 +233,6 @@ public class VideoModule implements CameraModule,
             return;
         }
         mParameters = mCameraDevice.getParameters();
-        initializeCapabilities();
     }
 
     //QCOM data Members Starts here
